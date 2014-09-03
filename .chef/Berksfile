@@ -1,0 +1,10 @@
+source "https://api.berkshelf.com/"
+
+cookbook "homebrew",
+  :git => "https://github.com/opscode-cookbooks/homebrew.git"
+cookbook "os_x",
+  :path => "cookbooks/os_x"
+cookbook "projects",
+  :path => "../cookbooks/projects"
+cookbook "people",
+  :path => "../cookbooks/people"
