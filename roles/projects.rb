@@ -27,19 +27,19 @@ override_attributes({
       "openssl",
       "readline"
     ],
-    "casks" => [
-      "google-chrome",
+    #{}"casks" => [
+      #google-chrome",
       #{}"google-japanese-ime",
-      "sublime-text",
-      "coteditor",
+      #{}"sublime-text",
+      #{}"coteditor",
       #"slack",
       #"skitch",
-      "evernote",
-      "dropbox",
+      #{}"evernote",
+      #{}"dropbox",
       #"dropbox-encore",
       #"caffeine",
       #"postgres",
-      "alfred",
+      #{}"alfred",
     ]
   },
   "rbenv" => {
