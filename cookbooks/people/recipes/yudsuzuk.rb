@@ -26,7 +26,6 @@ end
   bettertouchtool
   cyberduck
   dash
-  kobito
 }.each do |c|
   homebrew_cask c
 end

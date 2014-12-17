@@ -4,7 +4,7 @@ run_list(
   "recipe[homebrew]",          # Don't remove this
   "recipe[os_x::brew_bundle]", # Don't remove this
   "recipe[os_x::ruby]",
-  "recipe[projects::wantedly]"
+  "recipe[projects::yudsuzuk]"
 )
 override_attributes({
   "homebrew" => {
@@ -18,12 +18,12 @@ override_attributes({
       "bash-completion",
       "ruby-build",
       "rbenv",
-      "heroku-toolbelt",
+      #"heroku-toolbelt",
       #
-      # for wantedly/wantedly
+      # for yudsuzuk/yudsuzuk
       #
       "imagemagick",
-      "phantomjs",
+      #"phantomjs",
       "openssl",
       "readline"
     ],
@@ -32,13 +32,13 @@ override_attributes({
       "google-japanese-ime",
       "sublime-text",
       "coteditor",
-      "slack",
-      "skitch",
+      #"slack",
+      #"skitch",
       "evernote",
       "dropbox",
-      "dropbox-encore",
-      "caffeine",
-      "postgres",
+      #"dropbox-encore",
+      #"caffeine",
+      #"postgres",
     ]
   },
   "rbenv" => {

@@ -8,7 +8,7 @@ It was very inspired by github boxen and pivotal sprout.
 Install Xcode, Command Line Tools, Homebrew, Chef...etc.
 
 ```bash
-$ git clone https://github.com/wantedly/cooker.git && cd cooker
+$ git clone https://github.com/YuzuruS/cooker.git && cd cooker
 $ script/cooker
 ```
 
@@ -78,7 +78,7 @@ override_attributes({
 Same as projects setting, you can write a personal recipe under
  `cookbooks/people/recipes` directory.
 
-For example, if your username in mac is 'seigo',
- you need to create a file named `seigo.rb`.
+For example, if your username in mac is 'yudsuzuk',
+ you need to create a file named `yudsuzuk.rb`.
 
 This recipe will be added to run list automatically.
