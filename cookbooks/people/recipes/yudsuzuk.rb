@@ -21,8 +21,6 @@ end
 # Install additional casks
 #
 %w{
-  vagrant
-  virtualbox
   bettertouchtool
   cyberduck
   dash

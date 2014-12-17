@@ -3,8 +3,8 @@ description "Run list for each project."
 run_list(
   "recipe[homebrew]",          # Don't remove this
   "recipe[os_x::brew_bundle]", # Don't remove this
-  "recipe[os_x::ruby]",
-  "recipe[projects::yudsuzuk]"
+  "recipe[os_x::ruby]"
+  #{}"recipe[projects::my]"
 )
 override_attributes({
   "homebrew" => {
@@ -14,7 +14,7 @@ override_attributes({
       # basic formulas
       #
       "git",
-      "hub",
+      #{}"hub",
       "bash-completion",
       "ruby-build",
       "rbenv",
@@ -29,7 +29,7 @@ override_attributes({
     ],
     "casks" => [
       "google-chrome",
-      "google-japanese-ime",
+      #{}"google-japanese-ime",
       "sublime-text",
       "coteditor",
       #"slack",

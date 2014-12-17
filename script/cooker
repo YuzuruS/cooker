@@ -1,4 +1,4 @@
-#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+#!/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 #
 # Cooker
 #
@@ -43,9 +43,9 @@ def fail(string)
   puts "  #{Tty.red}x#{Tty.reset} #{string}"
 end
 
-def macos_version
-  @macos_version ||= `/usr/bin/sw_vers -productVersion`.chomp[/10\.\d+/]
-end
+#def macos_version
+#  @macos_version ||= `/usr/bin/sw_vers -productVersion`.chomp[/10\.\d+/]
+#end
 
 #
 # Welcome to Cooker
@@ -60,11 +60,11 @@ Dir.chdir ROOT_DIR
 #
 # Check for Max OS X Version.
 #
-unless macos_version.to_f >= 10.8
-  fail "You must be on Mountain Lion or greater!"
-  puts ""
-  exit 1
-end
+#unless macos_version.to_f >= 10.8
+#  fail "You must be on Mountain Lion or greater!"
+#  puts ""
+#  exit 1
+#end
 
 #
 # Check for Running User.
