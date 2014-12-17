@@ -26,7 +26,7 @@ override_attributes({
       #"phantomjs",
       "openssl",
       "readline"
-    ],
+    ]
     #{}"casks" => [
       #google-chrome",
       #{}"google-japanese-ime",
@@ -40,7 +40,7 @@ override_attributes({
       #"caffeine",
       #"postgres",
       #{}"alfred",
-    ]
+    #]
   },
   "rbenv" => {
     "user"   => ENV['HOME'].sub("\/Users\/", ""),
