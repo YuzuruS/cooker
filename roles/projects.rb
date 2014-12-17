@@ -39,6 +39,7 @@ override_attributes({
       #"dropbox-encore",
       #"caffeine",
       #"postgres",
+      "alfred",
     ]
   },
   "rbenv" => {
